@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gyermekfoto2": {
+      "hosting": {
+        "fotozas": [
+          "gyermekfoto2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gyermekfoto2"
+  }
+}

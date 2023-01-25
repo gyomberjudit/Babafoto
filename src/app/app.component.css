@@ -1,0 +1,140 @@
+
+    * {box-sizing: border-box;}
+    html, body { width: 100%; height: 100%; margin: 0; padding: 0;}
+    header {position: fixed; 
+            z-index: 1; 
+            background: #3C5A63; 
+            margin-top: -2px; 
+            margin-left: -15px; 
+            width: 100%;
+          }
+    #logo {max-height: 120px;}
+    #menu {display: none;
+           position: absolute; 
+           top: 0px;
+           right: 0px;
+           height: 40px; 
+           padding: 2%;
+           margin-right: 30px;
+         }
+    
+    #nav {display: flex; position: relative; margin-right: 0;} 
+    
+    #menu > img {height: 40px;}
+    #mosoly {margin-left: 250px; margin-top: 180px;}
+    #gy {margin-top: -20px;}
+    p {font-size: 18px;}
+    #tamaskep {height: 600px; margin-left: 40px; padding-left: 30px; padding-top: 30px;}
+/*    .kepek {justify-content: center;} */
+    .kepek, .kepek2 {display: flex; 
+            flex-direction: row;
+            flex-flow: row wrap; 
+            justify-content: space-between; 
+            _flex-basis: 100px; 
+            max-width: 100%;
+            height: auto;
+          } 
+    .kepek .img, .kepek2 .img  { height: 250px; width: auto; transition: 0.5s;}
+    .kepek .img:hover {transform: rotate(-14deg); cursor: pointer;}
+    .kepek2 .img:hover {transform: rotate(-14deg); cursor: pointer;}
+    #kapcs {padding-top: 200px;}
+    #rendel {padding-top: 150px; padding-bottom: 50px;}
+    #ar, #foto {padding-top: 150px;}
+    #en {padding-top: 110px;}
+    #tamas {padding-top: 160px;}
+    #baba {padding-top: 150px;}
+    #fel {position: fixed; bottom: 50px; right: 5px; cursor: pointer;}
+    #nyil {width: 80px}
+    #tobb {padding-top: px;}
+    #osszes {display: flex; flex-wrap: wrap;}
+    
+    .mutat {display: flex !important;}
+    
+    #vaszon img {height: 100%; width: 100%;}
+    #balra, #jobbra {
+             font-size: 60px; 
+             color: #fff; 
+             cursor: pointer;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 60px;
+             width: 60px;
+             padding-bottom: px;
+             border-radius: 5px;
+           }
+    #balra:hover {background: #aaa;}
+    #jobbra:hover {background: #aaa;}
+    #vaszon {position: fixed;
+             z-index: 100;
+             left: 0;
+             top: 0;
+             width: 100vw;
+             height: 100vh;
+             display: none;
+             justify-content: space-around;
+             align-items: center;
+             background: #000c;
+           }
+    #kozepre {display: flex; 
+             justify-content: center; 
+             align-items: center;
+             max-width: 100%;
+             height: 100%;
+           }
+    #nagykep {max-width: 100%;
+              max-height: 100%;} 
+
+    #x { position: absolute;
+             top: 50px;
+             right: 50px;
+             font-size: 80px;
+             color: #fff;
+             cursor: pointer;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 60px;
+             padding-bottom: 15px;
+             border-radius: 5px;
+            }
+
+    #x:hover {background: #aaa;}
+
+    @media only screen and (max-width: 1200px) {
+      section, #megrendeles, #tamas, nav  {
+             display: flex; 
+             flex-direction: column; 
+             height: auto; 
+             justify-content: center; 
+             align-items: center;
+           }
+      #logo {margin-left: 0 !important;}
+      #menu {display: block !important; cursor: pointer;}
+      #nav {transition: 5s;}
+      nav  {
+            position: absolute; 
+            top: 0; right: 0; 
+            background: #3C5A63; 
+            margin-right: 0 !important;
+            margin-top: 100px;
+            margin-right: -200px;
+      }
+
+      #mosoly {margin-left: 150px !important; margin-top: 150px;}
+      #csomagok {display: block !important; width: 75%; margin: auto !important;}
+      #form {display: block !important;}
+      .kepek, .kepek2 {flex-direction: column; 
+              flex-flow: column wrap; 
+              flex-wrap: wrap; 
+              justify-content: flex-start; 
+              align-items: center; 
+              width: 100%;
+            } 
+      #tamaskep { width: 80%; height: auto; margin-left: 0; padding-left: 0; padding-top: 0;}
+      .kepek .img, .kepek2 .img { width: 75%; height: auto; margin-left: 0; padding-left: 0; padding-top: 0;}
+      #tamas {width: 75%;}
+      #nagykep {max-width: 100%;
+                max-height: 50%;} 
+      .rejt {display: none !important;} 
+    }  
